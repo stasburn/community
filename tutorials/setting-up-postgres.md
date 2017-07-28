@@ -220,10 +220,13 @@ page.
 
         tcp:5432
 
+1. In **Targets**, change to:
+
+        All instance in the network
+
 1. Click **Create**.
 
-Note that firewall rules are a global resource, so you'll only need to
-create this rule once for all instances.
+Note that by default firewall rules are specific for tag, so you'll need tag your VMs or change Targets for firewall rule to apply for all instances.
 
 ### Connect using pgAdmin
 
